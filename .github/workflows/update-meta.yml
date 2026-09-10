@@ -1,0 +1,144 @@
+name: Update Meta
+
+on:
+  schedule:
+    - cron: '0 0 */2 * *' # Every 2 days
+  workflow_dispatch:
+
+jobs:
+  update-meta:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          path: main-repo
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install Poetry
+        run: curl -sSL https://install.python-poetry.org | python3 -
+        
+      - name: Add Poetry to PATH
+        run: echo "$HOME/.local/bin" >> $GITHUB_PATH
+        
+      - name: Install dependencies
+        working-directory: ./main-repo
+        run: poetry install
+        
+      - name: Cache upstream data
+        uses: actions/cache@v4
+        with:
+          path: |
+            main-repo/upstream
+            main-repo/caches
+          key: meta-upstream-${{ github.run_id }}
+          restore-keys: |
+            meta-upstream-
+            
+      - name: Checkout or Create meta branch
+        run: |
+          git clone --branch meta "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" launcher || \
+          (git init launcher && cd launcher && git checkout -b meta)
+          
+      - name: Update Upstream Data
+        working-directory: ./main-repo
+        run: |
+          mkdir -p upstream caches
+          export META_CACHE_DIR=$PWD/caches
+          export META_UPSTREAM_DIR=$PWD/upstream
+          poetry run python -m meta.run.update_mojang
+          poetry run python -m meta.run.update_forge
+          poetry run python -m meta.run.update_neoforge
+          poetry run python -m meta.run.update_fabric
+          poetry run python -m meta.run.update_quilt
+          poetry run python -m meta.run.update_liteloader
+          poetry run python -m meta.run.update_java
+          poetry run python -m meta.run.update_authlib_injector
+          poetry run python -m meta.run.update_loki
+          poetry run python -m meta.run.update_ely_authlib
+          
+      - name: Generate Launcher Metadata
+        working-directory: ./main-repo
+        run: |
+          export META_CACHE_DIR=$PWD/caches
+          export META_UPSTREAM_DIR=$PWD/upstream
+          export META_LAUNCHER_DIR=$GITHUB_WORKSPACE/launcher
+          poetry run python -m meta.run.generate_mojang
+          poetry run python -m meta.run.generate_forge
+          poetry run python -m meta.run.generate_neoforge
+          poetry run python -m meta.run.generate_fabric
+          poetry run python -m meta.run.generate_quilt
+          poetry run python -m meta.run.generate_liteloader
+          poetry run python -m meta.run.generate_java
+          poetry run python -m meta.run.generate_authlib_injector
+          poetry run python -m meta.run.generate_loki
+          poetry run python -m meta.run.generate_ely_authlib
+          poetry run python -m meta.run.index
+          
+      - name: Create index.html
+        run: |
+          cat << 'HTML_EOF' > launcher/index.html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>HalkyMeta</title>
+              <style>
+                  body {
+                      font-family: system-ui, -apple-system, sans-serif;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      min-height: 100vh;
+                      margin: 0;
+                      background-color: #0f172a;
+                      color: #f8fafc;
+                  }
+                  h1 {
+                      font-size: 4rem;
+                      margin-bottom: 2rem;
+                      font-weight: 700;
+                  }
+                  .btn {
+                      background-color: #3b82f6;
+                      color: white;
+                      padding: 1rem 2.5rem;
+                      border-radius: 0.5rem;
+                      text-decoration: none;
+                      font-size: 1.25rem;
+                      font-weight: 500;
+                      transition: background-color 0.2s;
+                  }
+                  .btn:hover {
+                      background-color: #2563eb;
+                  }
+              </style>
+          </head>
+          <body>
+              <h1>HalkyMeta</h1>
+              <a href="https://halkylauncher.alex1811.ovh/" class="btn">Go to out site</a>
+          </body>
+          </html>
+          HTML_EOF
+          
+      - name: Commit and Push to meta branch
+        working-directory: ./launcher
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update meta files and index"
+            git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" meta
+          fi
