@@ -1,0 +1,8 @@
+{
+    "formatVersion": 1,
+    "name": "authlib-injector",
+    "recommended": [
+        "1.2.8"
+    ],
+    "uid": "moe.yushi.authlibinjector"
+}

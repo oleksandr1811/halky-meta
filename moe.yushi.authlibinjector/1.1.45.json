@@ -1,0 +1,25 @@
+{
+    "+agents": [
+        {
+            "argument": "${authlib_injector_auth_url}",
+            "downloads": {
+                "artifact": {
+                    "sha1": "ea5d5b3697af11775efbfbbd87cb9542bbae81cc",
+                    "size": 325827,
+                    "url": "https://github.com/yushijinhun/authlib-injector/releases/download/v1.1.45/authlib-injector-1.1.45.jar"
+                }
+            },
+            "name": "moe.yushi:authlibinjector:1.1.45"
+        }
+    ],
+    "+jvmArgs": [
+        "-Dauthlibinjector.noLogFile",
+        "-Dauthlibinjector.noShowServerName"
+    ],
+    "formatVersion": 1,
+    "name": "authlib-injector",
+    "releaseTime": "2022-06-06T18:02:59+00:00",
+    "type": "release",
+    "uid": "moe.yushi.authlibinjector",
+    "version": "1.1.45"
+}

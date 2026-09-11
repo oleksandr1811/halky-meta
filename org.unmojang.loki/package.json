@@ -1,0 +1,8 @@
+{
+    "formatVersion": 1,
+    "name": "Loki",
+    "recommended": [
+        "2.6.5"
+    ],
+    "uid": "org.unmojang.loki"
+}

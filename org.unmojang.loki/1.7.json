@@ -1,0 +1,21 @@
+{
+    "+agents": [
+        {
+            "argument": "${authlib_injector_auth_url}",
+            "downloads": {
+                "artifact": {
+                    "sha1": "f59937d82878a55fa4efa2f41b74e3ea8149804a",
+                    "size": 403397,
+                    "url": "https://github.com/unmojang/Loki/releases/download/v1.7/Loki-1.7.jar"
+                }
+            },
+            "name": "org.unmojang:Loki:1.7"
+        }
+    ],
+    "formatVersion": 1,
+    "name": "Loki",
+    "releaseTime": "2025-12-05T00:05:42+00:00",
+    "type": "release",
+    "uid": "org.unmojang.loki",
+    "version": "1.7"
+}

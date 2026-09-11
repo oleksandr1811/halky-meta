@@ -1,0 +1,241 @@
+{
+    "formatVersion": 1,
+    "name": "Ely.by Authlib",
+    "uid": "by.ely.authlib",
+    "versions": [
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "fa1d4ab40ec82cd9d644c9444262875666e12292967637455b6ddb716ddda542",
+            "version": "7.0.60"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "4690e2648aebbf63520f41d29dcb534f63ee7b1b281d6387bf7415022cc1168f",
+            "version": "6.0.55"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "32e387f1a62ac7157ea0d7191d18eb7c5d43c7e644b2d5da5fff782fa50c8b35",
+            "version": "3.18.38"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "aa4bf9307172f304d5f18f65c451bfae5e4f78b56578374ae01ae4a5c72cc65f",
+            "version": "1.5.13"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "0f9e8a2d842f8b5fe79a36652192b95aa2dbb48e60d5cc92fb6e5ca3bd7ad89d",
+            "version": "1.5.21"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "50d1f57b605cb3ad358e25f8fc3d04ce6315aa17c502fc54e80899d97ed14b65",
+            "version": "5.0.46"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "c4e8b5f4f6c94751be2bee92a427c577d1d1ec7b58d6a955dee376e863811704",
+            "version": "2.3.31"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "a2c1dab7801884c01838a62ff1e714a26e2da7101cbb18940fd61d3041728c2d",
+            "version": "3.16.29"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "cce3963d8b11ac27f2865cc24813b04893dc32b081ed8746a1613865bac152df",
+            "version": "1.5.22"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "afb358398bdfaee2436fafbbd26b2b7a5cc4f0d1f1539f02053ef9aec94042be",
+            "version": "1.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "d93762d02e86f1e719c5dcca526934fd747d76169c16e7d4d437f96b9d095106",
+            "version": "6.0.59"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "b05f5cb4b37a3f346ccd745b818f3121af22de188a28e9878a7ddc3386c8d022",
+            "version": "1.6.25"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "4e1d5095581c9980b4dffebb1cb6185cbb17677d04db73bb3aff844f80e441e7",
+            "version": "7.0.62"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "0340eea6a133a74180eebaee6c766f8ae005d80346589c84e5b5223d9a37885e",
+            "version": "3.11.49"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "b412484d3a33c3200bb0fa1c35ab6cdee638115530af6cabc576d597ad05183f",
+            "version": "1.5.12"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "0615e58b154df26ab395e396cd1e7d5ab2967332062846eb1afb631ebbc46937",
+            "version": "5.0.51"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "698473df5c9d7f9bcd1771efd36e282f0482e4052c9a67f2663e19a7d494c33b",
+            "version": "1.5.24"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "aa4ccd5253f501cea34aa7d0dd57787ddcf8848531e5bb2d3f501557bf602a9e",
+            "version": "3.11.50"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "84682a008bb59023508265b6c647b2420712a982b99cf295641e0e3559c5a0fe",
+            "version": "7.0.72"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "3149b21e03c310db60babb403b871d3640ab60ca663733532587af5a183573cd",
+            "version": "1.5.25"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "820541dcfb717e0a375f3dc684d16313465cb6a65e31027a1bc6a1ac586f15a4",
+            "version": "2.1.28"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "8249799f9e8049efa4d2c8dada9cbdd77719c69669f944af086a2a2fc5fe3d68",
+            "version": "6.0.52"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "6114d6624dba0460d2bcb191b1ae01b7c4fab68de4151c489a63d4335bb5bc25",
+            "version": "7.0.61"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "ac57b521fa0fd6fc3cb752c02592bc15ebf089d4242824b29dd00f41bbccc592",
+            "version": "5.0.47"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "3583fbfb692622b7ea782438b8bcfdcdc0e088fe5a928fceafc636f76355ab5e",
+            "version": "6.0.54"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "4badff5db348393d7d34f2df3cbab42ff5f29c00f9e8deb4b96d036c3dc69233",
+            "version": "6.0.57"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "f0b054fda9530c0506e0eca3ced7e58f874bf48a50c9803383b2c2d972f6ae0d",
+            "version": "1.5.8"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "a35879eb80dba421c05b2c84e46b4839dc933d5f175525088993d1fbc1505016",
+            "version": "3.2.38"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "7d5ec4cdc62b20ebb7348d2e4bc0e3e2152693c2058b6a3be837aa6ef3b7a036",
+            "version": "1.3.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "2d4b5df672e29075bba9e0633095cde078e9f830002f9c10849b7231597d85f9",
+            "version": "3.5.41"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "d68c488a31913c8e426cd48157bbfc16d3b089ce00b520c1391f6bf705e7ed6d",
+            "version": "8.0.73"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "c742761aa9168b786a48848b2152e10daf56731d90685387301324bb014cd5f4",
+            "version": "1.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "0a583451ab728d9c223193344d2c69d619c68c3d35119dfdc4905ff69f9be205",
+            "version": "1.5.6"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "a0b056311875489a52a5a82db46cf6a5904434b1175810de5f607036c9310434",
+            "version": "4.0.43"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "5f249b779e8ee420d27896ae114a5d3cc47899322c637b46e696fed8e7bca343",
+            "version": "6.0.58"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "f53e5c0993a8a217f2b94465ecb6566554bacdcc0958eb058e5532b489b3af96",
+            "version": "9.0.75"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "491243af7c37b8bff8a743e5dc14422c68ad1dc59157922963ea30db7c2c5838",
+            "version": "3.3.39"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "d8f65d6a63a7b43cbfe31942ded9d6afdc799e38201e985b1a78d4512de267d1",
+            "version": "5.0.50"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-08T16:21:35+00:00",
+            "sha256": "dd3d13f6fff84d56b39ff660d2bb34cae334da798a744fb2cd3e5218211ac867",
+            "version": "7.0.63"
+        }
+    ]
+}

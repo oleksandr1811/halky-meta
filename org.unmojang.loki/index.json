@@ -1,0 +1,217 @@
+{
+    "formatVersion": 1,
+    "name": "Loki",
+    "uid": "org.unmojang.loki",
+    "versions": [
+        {
+            "recommended": true,
+            "releaseTime": "2026-09-05T14:46:28+00:00",
+            "sha256": "61d2e5f3934103ab5941c7282cff3b61292684b93efa20d200c46710cd63f66c",
+            "type": "release",
+            "version": "2.6.5"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-08-17T03:47:47+00:00",
+            "sha256": "deda28fa3abafcc73650defb985e0bff465dd4fa5cf68176fab1872c88b60486",
+            "type": "release",
+            "version": "2.6.4"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-07-06T18:49:28+00:00",
+            "sha256": "61d10ad4c1aef05bf003924f4cfcdec4ae1368e5dbe9f59fc7c1b1eac18e23ce",
+            "type": "release",
+            "version": "2.6.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-29T22:06:05+00:00",
+            "sha256": "3aa2063821f1aa38b63ec9c82813aeef61e6d462d17dc3019d9755a806e4fd5b",
+            "type": "release",
+            "version": "2.6.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-20T08:34:00+00:00",
+            "sha256": "84882b440ca05f997d1b9a4f601f7d1876b26c8fae1e813bb57a9919031da3ac",
+            "type": "release",
+            "version": "2.6.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-06-02T01:25:01+00:00",
+            "sha256": "1d75eec2610e68ca72c9dd510f79fdb3fc0e4764fa7abc5d1c5a73876704e5ce",
+            "type": "release",
+            "version": "2.6.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-21T01:34:00+00:00",
+            "sha256": "729211ef2b03ad4c70eb33be4cca1c5feaecf0556c8855aab98a3b23d34ab235",
+            "type": "release",
+            "version": "2.5.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-19T09:58:06+00:00",
+            "sha256": "9bcfbc5dfd08f89b01ab436e61543e1e7c4fe2737398069b7d873188eb61ef37",
+            "type": "release",
+            "version": "2.5.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-18T01:04:33+00:00",
+            "sha256": "d78425450e60322631483d3b0aedd53fd0b5733b3cef226890635db293ba0c45",
+            "type": "release",
+            "version": "2.5.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-16T23:48:58+00:00",
+            "sha256": "33379cf75bec2baebfa17560b5aa54d504faed4f9386ecccbfff3878d3811530",
+            "type": "release",
+            "version": "2.4.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-15T15:23:52+00:00",
+            "sha256": "27d20e71cf204c08414291cc64e7307f7c5027a6345e0edc5de3d5cf23d12d64",
+            "type": "release",
+            "version": "2.4.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-13T20:52:37+00:00",
+            "sha256": "b3d9694abea45057cf857d28a8f1184609056c995eaf729e72f069c14c9fcda0",
+            "type": "release",
+            "version": "2.4.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-05-09T16:19:53+00:00",
+            "sha256": "6efeae752c2d84c07e37851e0ca46e961abac590e6c60f97eb353cf1a5be512a",
+            "type": "release",
+            "version": "2.4.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-04-18T15:40:27+00:00",
+            "sha256": "25fb909406d1d609458bebe0515935b4d99853baa5935e4baf81ae1fa1e393a8",
+            "type": "release",
+            "version": "2.3.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-03-18T05:05:24+00:00",
+            "sha256": "3d451e5de2e9d6c1dd5d4c2add0cbc8be2e7a9acaaa4eb00e49415815272355c",
+            "type": "release",
+            "version": "2.3.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-02-15T01:19:47+00:00",
+            "sha256": "42f6d55205992ce6dd4848f7c3f76096717f8b9f606cb936cd57180c92d860b3",
+            "type": "release",
+            "version": "2.2.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-02-02T11:56:54+00:00",
+            "sha256": "7a53224d91737296fcbfdb74305f8fb32ba5542b92ec3a18a22f09bf54f09897",
+            "type": "release",
+            "version": "2.2.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-01-11T04:10:35+00:00",
+            "sha256": "36d571a9ad8cee11dc0b9615d3f5f42be0f5f2dca3f1812f7aac66bc037f7fca",
+            "type": "release",
+            "version": "2.1.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-01-09T09:24:42+00:00",
+            "sha256": "a1081149942c32a65ba566a76c12527576696df79b99f3a1c01e59e84ff22677",
+            "type": "release",
+            "version": "2.1.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2026-01-01T08:38:11+00:00",
+            "sha256": "9f8c0b95db58f14d69df16be21279a5f5871c7440dd7331366c06f4e706bfd1e",
+            "type": "release",
+            "version": "2.0.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-31T01:43:20+00:00",
+            "sha256": "2a737662cf1b55f9672c6f73837cdebc66e252a2482f7fd6042b1912a14e804a",
+            "type": "release",
+            "version": "2.0"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-18T09:34:05+00:00",
+            "sha256": "f55af16a60662ca6a55889254602dedfa7363f26d0192be14da68b53da41a91e",
+            "type": "release",
+            "version": "1.9.4"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-12T23:02:58+00:00",
+            "sha256": "f226c51895c6527988b4f5d5fd6cc6246d92e43fb1d2397d85672526f04f98d9",
+            "type": "release",
+            "version": "1.9.3"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-09T04:16:19+00:00",
+            "sha256": "1ed7d4663fd5ab1ee2b9c1072129dea5c2aa956f0e75caba531f4e1257142ebe",
+            "type": "release",
+            "version": "1.9.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-08T21:15:59+00:00",
+            "sha256": "0ce59e6fd3d8547c5cd720888bd5fe3caef729f8f26c386a9fb89c2f4017b3b3",
+            "type": "release",
+            "version": "1.9.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-07T14:13:46+00:00",
+            "sha256": "da4d8e4a057f0b698c22dea2ec577e9b3e967f17d89d1482f0323fd8be45c081",
+            "type": "release",
+            "version": "1.9"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-07T04:04:02+00:00",
+            "sha256": "eea4d779d6643e84b9235be749a79611159c58a440cb1bc97869c07b9b8abc43",
+            "type": "release",
+            "version": "1.8.2"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-06T20:06:58+00:00",
+            "sha256": "508b4beae81f1d4174026cc8659774494b3a9cc40ea47f53a2a76c80749595d7",
+            "type": "release",
+            "version": "1.8.1"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-05T19:24:52+00:00",
+            "sha256": "e435e70bf813fa5f62f068b139074c5cb8866eccef6808d2fee3c4d8d0e50b53",
+            "type": "release",
+            "version": "1.8"
+        },
+        {
+            "recommended": false,
+            "releaseTime": "2025-12-05T00:05:42+00:00",
+            "sha256": "5987a1753bf8d0fa754be25a122fa699eeac9d2afd26989a7df4a046da760c7a",
+            "type": "release",
+            "version": "1.7"
+        }
+    ]
+}

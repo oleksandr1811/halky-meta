@@ -1,0 +1,19 @@
+{
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "e73f226c7fa9375717b9b8f56d8208748302d7ab",
+                    "size": 120229,
+                    "url": "https://repo.llaun.ch/libraries/by/ely/authlib/6.0.58-ely.2/authlib-6.0.58-ely.2.jar"
+                }
+            },
+            "name": "by.ely:authlib:6.0.58-ely.2"
+        }
+    ],
+    "name": "Ely.by Authlib",
+    "releaseTime": "2026-06-08T16:21:35+00:00",
+    "uid": "by.ely.authlib",
+    "version": "6.0.58"
+}

@@ -1,0 +1,21 @@
+{
+    "+agents": [
+        {
+            "argument": "${authlib_injector_auth_url}",
+            "downloads": {
+                "artifact": {
+                    "sha1": "a61e56e10909114d8fae70134e1b23cf8a0e4df4",
+                    "size": 373913,
+                    "url": "https://github.com/unmojang/Loki/releases/download/v2.5.3/Loki-2.5.3.jar"
+                }
+            },
+            "name": "org.unmojang:Loki:2.5.3"
+        }
+    ],
+    "formatVersion": 1,
+    "name": "Loki",
+    "releaseTime": "2026-05-21T01:34:00+00:00",
+    "type": "release",
+    "uid": "org.unmojang.loki",
+    "version": "2.5.3"
+}
