@@ -2,7 +2,7 @@ name: Update Meta
 
 on:
   schedule:
-    - cron: '0 0 */2 * *' # Every 2 days
+   - cron: '0 1 */2 * *' # Every 2 days, 04:00 UTC+3
   workflow_dispatch:
 
 jobs:
