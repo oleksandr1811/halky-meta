@@ -17,7 +17,7 @@ LAUNCHER_DIR = launcher_path()
 
 
 # ignore these files when indexing versions
-ignore = {"index.json", "package.json", "index.html", ".git", ".github"}
+ignore = {"index.json", "package.json", "index.html", "CNAME", ".git", ".github"}
 
 # initialize output structures - package list level
 packages = MetaPackageIndex()
