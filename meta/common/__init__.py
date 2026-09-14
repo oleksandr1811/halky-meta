@@ -85,6 +85,19 @@ def default_session():
     cache = FileCache(os.path.join(cache_path(), "http_cache"))
     sess = CacheControl(requests.Session(), cache)
 
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+
+    retry_strategy = Retry(
+        total=5,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["HEAD", "GET", "OPTIONS"]
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    sess.mount("https://", adapter)
+    sess.mount("http://", adapter)
+
     sess.headers.update({"User-Agent": "PrismLauncherMeta/1.0"})
 
     return sess
