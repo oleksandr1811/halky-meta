@@ -3,7 +3,7 @@
     "packages": [
         {
             "name": "Ely.by Authlib",
-            "sha256": "ba03bfa99805feb748a0bc8ce3234f91c6bab21e9921ba4a418d44b1562b8676",
+            "sha256": "55d7231a9477b6a2d5f41d056352c07ab02411730601169205b0cf2f6deb0eb4",
             "uid": "by.ely.authlib"
         },
         {
@@ -43,7 +43,7 @@
         },
         {
             "name": "Minecraft",
-            "sha256": "38494de55f4b017bf5ba890c2f063e6bae0305e8109e83d6b42f97dbda77be9c",
+            "sha256": "956135aa11b5de3a736a8a66b8e07adb3c82232607495ebf0512862e1fc421cd",
             "uid": "net.minecraft"
         },
         {
@@ -58,7 +58,7 @@
         },
         {
             "name": "NeoForge",
-            "sha256": "1151cfc622d55489871ddf968ab054eace75e92555ce90d98a03d86d1b815982",
+            "sha256": "1471d944941febd4d3caf962e526bcb707762b5d958b1cba200abca778a6eb6d",
             "uid": "net.neoforged"
         },
         {
@@ -68,7 +68,7 @@
         },
         {
             "name": "LWJGL 3",
-            "sha256": "ca461ce8722bef1f900b617fcaee69f1472485c0e91671bec958ce3c89344af5",
+            "sha256": "9c4684dfb4611cafe7b05690fb54a4dd11ffa52f7c61ed9da5ab2ee13327bef6",
             "uid": "org.lwjgl3"
         },
         {
