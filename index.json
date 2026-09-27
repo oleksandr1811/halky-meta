@@ -3,7 +3,7 @@
     "packages": [
         {
             "name": "Ely.by Authlib",
-            "sha256": "821dbd6b49920461088ab33637a73e5c41b85eb89e26eda8a617ea3976e8e916",
+            "sha256": "c2ccbd6e35d3b796faf0fcf0d50d1c479ce7247b84daad62aef5ddd1094a66e4",
             "uid": "by.ely.authlib"
         },
         {
@@ -13,7 +13,7 @@
         },
         {
             "name": "Java Runtimes",
-            "sha256": "ba38674c1a5b2f59d07bef6536d0590d3e2d61976a35a591076b0e90bb49f82b",
+            "sha256": "a510979d9893fc8aecaf72432ed9a41715eff920b4671d1e44e259f7fd0ad01c",
             "uid": "com.ibm.java"
         },
         {
@@ -28,7 +28,7 @@
         },
         {
             "name": "Java Runtimes",
-            "sha256": "a068eaceb6d70c493869fb1b951d0f99673e2ea735f74802e883a5ae45442182",
+            "sha256": "bd9c0118fbde41e76c609ff945e84a85898910e50426102061595b53f58f38cc",
             "uid": "net.adoptium.java"
         },
         {
@@ -53,12 +53,12 @@
         },
         {
             "name": "Forge",
-            "sha256": "eafd2542fee657ec80938a5c30c3176b91ca06a855beae47b62434b8878403f5",
+            "sha256": "10fbc573bab2d2d9d639e56c00c4c040631ad43ffcc000782109abe44bb399a1",
             "uid": "net.minecraftforge"
         },
         {
             "name": "NeoForge",
-            "sha256": "214f24b93618232eadd030bc5006179b80b82eb4597fa61405e159c09d3a4432",
+            "sha256": "e1040de43aa2cb21d0af2350cc5970a61fed8cf509d3652ac3e6524cd85d92a5",
             "uid": "net.neoforged"
         },
         {
