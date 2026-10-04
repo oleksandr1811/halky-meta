@@ -20,10 +20,16 @@ def serialize_datetime(dt: datetime.datetime):
     return dt.isoformat()
 
 
+def placeholdermc_path():
+    if "PMC_DIR" in os.environ:
+        return os.environ["PMC_DIR"]
+    return "placeholdermc"
+
+
 def cache_path():
     if "META_CACHE_DIR" in os.environ:
         return os.environ["META_CACHE_DIR"]
-    return "cache"
+    return "caches"
 
 
 def launcher_path():
