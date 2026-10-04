@@ -4,16 +4,16 @@
         {
             "downloads": {
                 "artifact": {
-                    "sha1": "f4594bb147a91b6394b3845b4e5867d50e478f22",
-                    "size": 157458,
-                    "url": "https://repo.llaun.ch/libraries/by/ely/authlib/10.0.76-ely.1/authlib-10.0.76-ely.1.jar"
+                    "sha1": "402f51ba6d9c62cf93726ca4e33351e2a568d4a9",
+                    "size": 157526,
+                    "url": "https://repo.llaun.ch/libraries/by/ely/authlib/10.0.76-ely.2/authlib-10.0.76-ely.2.jar"
                 }
             },
-            "name": "by.ely:authlib:10.0.76-ely.1"
+            "name": "by.ely:authlib:10.0.76-ely.2"
         }
     ],
     "name": "Ely.by Authlib",
-    "releaseTime": "2026-09-25T19:42:46+00:00",
+    "releaseTime": "2026-09-30T09:42:47+00:00",
     "uid": "by.ely.authlib",
     "version": "10.0.76"
 }
