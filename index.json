@@ -38,12 +38,12 @@
         },
         {
             "name": "Intermediary Mappings",
-            "sha256": "236d0c7ddc8e901f39608ce25f211784aeab0a849b02ae17eafde347dbb6d436",
+            "sha256": "87b5780d3c3f96ec3d363f036338577ba1fba6c7f103b82e367905a4e485cadd",
             "uid": "net.fabricmc.intermediary"
         },
         {
             "name": "Minecraft",
-            "sha256": "60b4221b867a4fb5a76a0c0477dcefc3d9b17675ecb0bddce1673d884c2b1a14",
+            "sha256": "fc2c47af6c1a2cf9dfef700b46aca7803d52aa1772dd7e379e73784df9856a63",
             "uid": "net.minecraft"
         },
         {
@@ -53,12 +53,12 @@
         },
         {
             "name": "Forge",
-            "sha256": "1aa6b26334238e6bf7094c8e1ff444b1b43d411dacf9e0459f3793975751997f",
+            "sha256": "8e637c7e9019e9bc4d3f6534879c55353f4b0bab7fd818e2fb5ea9d39c2077da",
             "uid": "net.minecraftforge"
         },
         {
             "name": "NeoForge",
-            "sha256": "7a6a88008df875f8a431932ba2d21a4f97fec49a65137fc3119aed82d13201b1",
+            "sha256": "9a53917bf735be4bb364fd8037f87c3ed8b59f9f45a810633bf7c94648f17176",
             "uid": "net.neoforged"
         },
         {
