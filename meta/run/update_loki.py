@@ -20,7 +20,7 @@ def convert_to_loki(entry: GitHubReleaseEntry, version: str, asset: GitHubReleas
     download_url = asset.browser_download_url
 
     print(f"Downloading {download_url}")
-    r = sess.get(download_url)
+    r = sess.get(download_url, timeout=30)
     r.raise_for_status()
 
     return LokiVersion(
@@ -38,6 +38,17 @@ def main():
     print("Getting Loki release manifests")
     releases = fetch_releases(RELEASES_API_URL, sess)
 
+    existing_versions = dict()
+    versions_file_path = os.path.join(UPSTREAM_DIR, VERSIONS_FILE)
+    if os.path.exists(versions_file_path):
+        try:
+            existing_index = LokiIndex.parse_file(versions_file_path)
+            for v in existing_index.versions:
+                existing_versions[v.version] = v
+        except Exception as e:
+            print(f"Failed to read existing versions: {e}")
+
+    versions = []
     futures = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
         has_recommended = False
@@ -51,11 +62,16 @@ def main():
                 continue
 
             recommended = (not entry.prerelease and not has_recommended)
-            futures.append(executor.submit(convert_to_loki, entry, version, asset, recommended))
             if recommended:
                 has_recommended = True
 
-    versions = []
+            if version in existing_versions:
+                existing = existing_versions[version]
+                existing.recommended = recommended
+                versions.append(existing)
+            else:
+                futures.append(executor.submit(convert_to_loki, entry, version, asset, recommended))
+
     for future in futures:
         versions.append(future.result())
 
@@ -65,7 +81,7 @@ def main():
     loki_index = LokiIndex(
         versions=versions,
     )
-    loki_index.write(os.path.join(UPSTREAM_DIR, VERSIONS_FILE))
+    loki_index.write(versions_file_path)
 
 
 if __name__ == "__main__":

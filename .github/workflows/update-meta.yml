@@ -49,6 +49,8 @@ jobs:
           
       - name: Update Upstream Data
         working-directory: ./main-repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p upstream caches
           export META_CACHE_DIR=$PWD/caches

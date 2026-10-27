@@ -1,3 +1,4 @@
+import os
 from typing import List, Optional
 
 import requests
@@ -9,8 +10,13 @@ def fetch_releases(api_url: str, sess: requests.Session) -> List[GitHubReleaseEn
     entries: List[GitHubReleaseEntry] = []
     url = api_url
     params = {"per_page": 100}
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    headers = {"Accept": "application/vnd.github+json"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
     while url:
-        r = sess.get(url, params=params, headers={"Accept": "application/vnd.github+json"})
+        r = sess.get(url, params=params, headers=headers)
         r.raise_for_status()
 
         entries += GitHubReleaseIndex.parse_obj(r.json()).__root__

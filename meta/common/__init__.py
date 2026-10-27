@@ -9,8 +9,18 @@ from typing import Any, Optional, Callable
 import requests
 from cachecontrol import CacheControl  # type: ignore
 from cachecontrol.caches import FileCache  # type: ignore
+from urllib3.util.retry import Retry
 
 LAUNCHER_MAVEN = "https://files.prismlauncher.org/maven/%s"
+
+HTTP_RETRY = Retry(
+    total=5,
+    status_forcelist=(429, 500, 502, 503, 504, 520, 521, 522, 523, 524),
+    allowed_methods=frozenset({"GET", "HEAD", "OPTIONS"}),
+    backoff_factor=1.0,
+    respect_retry_after_header=True,
+    raise_on_status=False,
+)
 
 
 def serialize_datetime(dt: datetime.datetime):
@@ -91,20 +101,10 @@ def default_session():
     cache = FileCache(os.path.join(cache_path(), "http_cache"))
     sess = CacheControl(requests.Session(), cache)
 
-    from requests.adapters import HTTPAdapter
-    from urllib3.util.retry import Retry
-
-    retry_strategy = Retry(
-        total=5,
-        backoff_factor=1,
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["HEAD", "GET", "OPTIONS"]
-    )
-    adapter = HTTPAdapter(max_retries=retry_strategy)
-    sess.mount("https://", adapter)
-    sess.mount("http://", adapter)
-
     sess.headers.update({"User-Agent": "PrismLauncherMeta/1.0"})
+
+    for adapter in sess.adapters.values():
+        adapter.max_retries = HTTP_RETRY
 
     return sess
 
