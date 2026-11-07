@@ -66,19 +66,19 @@
         {
             "recommended": false,
             "releaseTime": "2021-10-27T13:36:51+00:00",
-            "sha256": "7b99370ebf87e1b9da4b704e40e3e8068e61f65b08324c94b1c4f4d928f9e710",
+            "sha256": "1e4fb3c7e5e47fb3514d74681264bf537069f0e0990808b5275a18f6217a29bd",
             "version": "java17"
         },
         {
             "recommended": false,
             "releaseTime": "2021-08-01T13:49:49+00:00",
-            "sha256": "5b459d3e691c63d0f0791406dc0b287a0c5f27101249c8663ea36448c29a095a",
+            "sha256": "3ec9af44261235c1ea0e90a543447fda04e1ff753ec11e47d753f6d85e5c4c82",
             "version": "java11"
         },
         {
             "recommended": false,
             "releaseTime": "2021-07-29T19:22:38+00:00",
-            "sha256": "51acdd9c05d5f162e5562d4d1b31a4337e17cfa9f6de089fae2eec3674ceed98",
+            "sha256": "c46e10c9e0806510476b972f4fa9e9dd8acbc0d4fe4f062594501c6353dcd12e",
             "version": "java8"
         }
     ]
