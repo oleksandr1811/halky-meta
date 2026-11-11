@@ -13,7 +13,7 @@
         },
         {
             "name": "Java Runtimes",
-            "sha256": "308c533863f61ab5bf9b6eadc5a97048d2a29069a97efb4f26751f3d6ada3e98",
+            "sha256": "60cc888e2984feb5c2bf1ecb13159f88917901e7f4781d5f339fad64b54bcc58",
             "uid": "com.ibm.java"
         },
         {
@@ -28,7 +28,7 @@
         },
         {
             "name": "Java Runtimes",
-            "sha256": "e335f45aa17071b92cd121f2bbe7f199721e6e91462cdb79ff2e7380be4be297",
+            "sha256": "5d6461a206666daaa41bbd2728be06e0b9627d63d8246b65e23404dc9fa1b748",
             "uid": "net.adoptium.java"
         },
         {
@@ -38,27 +38,27 @@
         },
         {
             "name": "Intermediary Mappings",
-            "sha256": "4538b79b4b288ae10c1572784f9493e99ad5538ce12d06d099c5d78e3e7ba053",
+            "sha256": "fe08aea5a0131930efc540e7609a676d6d86cbfb854db54efd3f533a22c3ad80",
             "uid": "net.fabricmc.intermediary"
         },
         {
             "name": "Minecraft",
-            "sha256": "8cf3c3d5f7b22115062ee79eb72164b947607907c8d0560b4a8dc331a57944db",
+            "sha256": "10a659c68d39ceef79f286d73f9ee00bcb237674e727339770d0b4972a329954",
             "uid": "net.minecraft"
         },
         {
             "name": "Java Runtimes",
-            "sha256": "47c268dfa1061094d6e7de01ae21f41617e9f647416abb1589b0455b11675741",
+            "sha256": "1e4409cc3df36ca64102db73442de9b5149d2e50c579fe80f52f00013de82e42",
             "uid": "net.minecraft.java"
         },
         {
             "name": "Forge",
-            "sha256": "8152374e5e647fcbbf3327215aeb456fabcc62861ff52be2514ea8e99fa69552",
+            "sha256": "f73a502b96e30e557dc5027ad35bae941c1fcdb2364a6e8ee8771579c6882a49",
             "uid": "net.minecraftforge"
         },
         {
             "name": "NeoForge",
-            "sha256": "a2af6368204c088439024817997ee1e556d0acd5fffe799faaecdb2b8991978c",
+            "sha256": "c60254966c7e4f361ab99c43e56cc990910e2eda9dc51d680441cef7e571ccbe",
             "uid": "net.neoforged"
         },
         {
