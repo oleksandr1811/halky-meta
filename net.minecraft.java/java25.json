@@ -5,59 +5,62 @@
     "runtimes": [
         {
             "checksum": {
-                "hash": "ccf325ef8f5be596cf8229fd349298d8a74d2388",
+                "hash": "0c16f58e591e144625a6d30a64e9314897f73a29",
                 "type": "sha1"
             },
             "downloadType": "manifest",
             "name": "java-runtime-epsilon",
             "packageType": "jre",
-            "releaseTime": "2025-12-10T14:20:17+00:00",
+            "releaseTime": "2026-11-18T13:23:17+00:00",
             "runtimeOS": "linux-x64",
-            "url": "https://piston-meta.mojang.com/v1/packages/ccf325ef8f5be596cf8229fd349298d8a74d2388/manifest.json",
+            "url": "https://piston-meta.mojang.com/v1/packages/0c16f58e591e144625a6d30a64e9314897f73a29/manifest.json",
             "vendor": "mojang",
             "version": {
+                "build": 1,
                 "major": 25,
                 "minor": 0,
-                "name": "25.0.1",
-                "security": 1
+                "name": "25.0.5.1",
+                "security": 5
             }
         },
         {
             "checksum": {
-                "hash": "3ba13e402261e7c94f37b22d7293c9558bcdaab0",
+                "hash": "3a0ddc4b12728e3bcb51286d68323aa1e5037727",
                 "type": "sha1"
             },
             "downloadType": "manifest",
             "name": "java-runtime-epsilon",
             "packageType": "jre",
-            "releaseTime": "2025-12-10T14:22:34+00:00",
+            "releaseTime": "2026-11-18T13:29:46+00:00",
             "runtimeOS": "mac-os-x64",
-            "url": "https://piston-meta.mojang.com/v1/packages/3ba13e402261e7c94f37b22d7293c9558bcdaab0/manifest.json",
+            "url": "https://piston-meta.mojang.com/v1/packages/3a0ddc4b12728e3bcb51286d68323aa1e5037727/manifest.json",
             "vendor": "mojang",
             "version": {
+                "build": 1,
                 "major": 25,
                 "minor": 0,
-                "name": "25.0.1",
-                "security": 1
+                "name": "25.0.5.1",
+                "security": 5
             }
         },
         {
             "checksum": {
-                "hash": "5643d63e75d54da43c9501cdb1988530a9bc5d7f",
+                "hash": "83b9c5e9c90af73b405b14e937f56ad7e9f23751",
                 "type": "sha1"
             },
             "downloadType": "manifest",
             "name": "java-runtime-epsilon",
             "packageType": "jre",
-            "releaseTime": "2025-12-10T14:24:00+00:00",
+            "releaseTime": "2026-11-18T13:30:53+00:00",
             "runtimeOS": "mac-os-arm64",
-            "url": "https://piston-meta.mojang.com/v1/packages/5643d63e75d54da43c9501cdb1988530a9bc5d7f/manifest.json",
+            "url": "https://piston-meta.mojang.com/v1/packages/83b9c5e9c90af73b405b14e937f56ad7e9f23751/manifest.json",
             "vendor": "mojang",
             "version": {
+                "build": 1,
                 "major": 25,
                 "minor": 0,
-                "name": "25.0.1",
-                "security": 1
+                "name": "25.0.5.1",
+                "security": 5
             }
         },
         {
